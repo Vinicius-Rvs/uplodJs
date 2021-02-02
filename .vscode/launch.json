@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        
+        {
+            "name": "Attach",
+            "port": 9229,
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "pwa-msedge",
+            "name": "https://github.com/Vinicius-Rvs/ideia-unica",
+            "request": "launch",
+            "url": "https://github.com/Vinicius-Rvs/ideia-unica"
+        }
+    ]
+}
